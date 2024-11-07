@@ -4,7 +4,7 @@ import com.geppetto.javareactapp.repository.UserRepository;
 import com.geppetto.javareactapp.dao.UserDao;
 
 import java.util.Optional;
-import com.geppetto.testingproj.model.Person;
+import com.geppetto.javareactapp.model.Person;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

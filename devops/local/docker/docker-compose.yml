@@ -251,7 +251,7 @@ services:
     image: systementry-3538
     container_name: systementry-3538
     ports: 
-      - 8026:8026
+      - 8028:8028
     env_file: .env
     depends_on:
       - mongo
@@ -272,7 +272,7 @@ services:
     image: testfeature-3538
     container_name: testfeature-3538
     ports: 
-      - 8027:8027
+      - 8029:8029
     env_file: .env
     depends_on:
       - mongo

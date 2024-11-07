@@ -57,14 +57,14 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8026
-    targetPort: 8026
+    port: 8028
+    targetPort: 8028
 
   testfeature: 
     name: testfeature
     type: NodePort
-    port: 8027
-    targetPort: 8027
+    port: 8029
+    targetPort: 8029
 
 
 deployment:

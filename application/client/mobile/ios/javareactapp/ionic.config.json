@@ -1,0 +1,7 @@
+{
+  "name": "javareactapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
